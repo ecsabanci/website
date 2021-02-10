@@ -4,6 +4,7 @@
 * {
     font-family: 'Open Sans', sans-serif;
     box-sizing: border-box;
+    
 }
 
 .sidebar {
@@ -311,6 +312,14 @@ ul li i:hover {
 
 @media screen and (max-width: 992px) {
 
+
+    .navbar {
+        width: 95vw;
+    }
+    .sidebar {
+        width: 95vw;
+    }
+   
     
     .hero-photo {
         display: none;
@@ -318,11 +327,14 @@ ul li i:hover {
 
     header {
         height: 100vh;
+        width: 95vw;
     }
 
     .about {
         flex-direction: column;
         align-items: center;
+        width: 95vw;
+        font-size: 22px;
     }
 
 
@@ -332,14 +344,18 @@ ul li i:hover {
     }
 
     .about-info {
-        width: 80vw;
+        width: 75vw;
+    }
+
+    .services {
+        width: 95vw;
     }
 
     .services-info {
         width: 100vw;
         justify-content: space-evenly;
         flex-wrap: wrap;
-        
+        font-size: 22px;
     }
     .service {
         margin: 3vh 0;
@@ -350,6 +366,10 @@ ul li i:hover {
         margin: 0;
     }
 
+    .footer {
+        width: 95vw;
+        font-size: 22px;
+    }
 
   
 }
@@ -439,14 +459,24 @@ ul li i:hover {
     .navbar #side-bar-btn {
         margin-right: 3vw;
     }
+    .sidebar {
+        width: 100vw;
+    }
 
     .about-photo img {
         margin: 0;
         width: 80vw;
-        height: 50vh;
+        height: 40vh;
+    }
+
+    .services-info {
+        width: 80vw;
     }
 
     .footer .social-icons li:last-child {
-        margin-right: 12vw;
+        margin-right: 11vw;
+    }
+    .footer .social-icons li, p {
+        font-size: 15px;
     }
 }
